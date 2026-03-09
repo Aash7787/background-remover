@@ -10,15 +10,6 @@ android {
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
-    flavorDimensions += "platform"
-
-    productFlavors {
-        create("play") {
-            dimension = "platform"
-        }
-    }
-
-
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17

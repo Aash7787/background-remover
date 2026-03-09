@@ -8,7 +8,7 @@ export 'package:flutter/services.dart';
 export 'package:flutter/gestures.dart';
 
 export 'package:dio/dio.dart';
-import 'package:flutter_inapp_purchase/flutter_inapp_purchase.dart';
+// import 'package:flutter_inapp_purchase/flutter_inapp_purchase.dart';
 export 'package:flutter/cupertino.dart' show CupertinoIcons;
 export 'package:flutter/foundation.dart';
 export 'package:flutter/material.dart'
