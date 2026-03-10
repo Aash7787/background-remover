@@ -7,6 +7,7 @@ export 'package:hive_flutter/hive_flutter.dart';
 export 'package:flutter/services.dart';
 export 'package:flutter/gestures.dart';
 
+
 export 'package:dio/dio.dart';
 // import 'package:flutter_inapp_purchase/flutter_inapp_purchase.dart';
 export 'package:flutter/cupertino.dart' show CupertinoIcons;
@@ -23,3 +24,5 @@ export 'package:pdf/pdf.dart';
 
 export 'main.dart';
 export 'src/src.dart';
+export 'package:background_remover/src/utils/theme/theme.dart';
+

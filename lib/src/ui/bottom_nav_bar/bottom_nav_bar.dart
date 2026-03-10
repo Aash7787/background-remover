@@ -8,9 +8,8 @@ class BottomNavBar extends ConsumerStatefulWidget {
 }
 
 class _BottomNavBarState extends ConsumerState<BottomNavBar> {
-
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold();
   }
 }

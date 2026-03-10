@@ -10,7 +10,7 @@ void main() async {
   storageService = HiveService();
   await storageService.init();
 
-  runApp(const MainApp());
+  runApp(ProviderScope(child: const MainApp()));
 }
 
 class MainApp extends ConsumerWidget {
@@ -23,7 +23,8 @@ class MainApp extends ConsumerWidget {
       navigatorKey: RouteNavigator.navigationKey,
       debugShowCheckedModeBanner: false,
       title: AppConstants.appName,
-      themeMode: ThemeMode.light,
+      theme: AppTheme.lightTheme,
+      darkTheme: AppTheme.darkTheme,
       // locale: appSettingsState.applocale,
       home: const SplashScreen(),
     );
